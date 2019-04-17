@@ -19,7 +19,6 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
         <set-payload value="aaaa" doc:name="Set Payload"/>
         <set-payload value="bbbbb" doc:name="Set Payload"/>
         <logger message="======================#[message]" level="INFO" doc:name="Logger"/>
-        <set-payload value="=================hi=============#[payload]" doc:name="Set Payload"/>
-        <logger message="#[payload]" level="INFO" doc:name="Logger"/>
+        <set-payload value="---------------------------==#[payload]" doc:name="Set Payload"/>
     </flow>
 </mule>
